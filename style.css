@@ -77,25 +77,62 @@
 .cta_box {
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    bottom: 35px;
+    bottom: 30px;
     color: white;
     font-size: 11px;
     text-align: center;
     font-family: Helvetica;
+    letter-spacing: 1px;
 }
 
 .cta_left {
     background-color: #08c;
+    margin-right: 5px;
     padding: 12px;
-    margin-left: 37px;
-    max-width: 125px;
 }
 
 .cta_right {
     background-color: #08c;
+    margin-left: 5px;
     padding: 12px;
-    margin-right: 37px;
-    max-width: 125px;
+}
+
+.card_container {
+    padding: 1% 2%;
+}
+
+.card_container p {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10px;
+    font-size: 38px;
+    font-family: Open Sans Condensed;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card_container img {
+    height: auto;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-family: Open Sans Condensed;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.footer i {
+    margin-right: 10px;
+}
+
+#copyright {
+    color: rgb(179, 177, 177);
+    font-size: 12px;
 }
